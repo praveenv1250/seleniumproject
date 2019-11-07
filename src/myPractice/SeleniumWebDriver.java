@@ -15,7 +15,7 @@ public class SeleniumWebDriver {
 			dr.get(Url);
 			dr.manage().window().maximize();
 			dr.findElement(By.id("login_Layer")).click();
-			dr.findElement(By.id("eLoginNew")).sendKeys("praveenvarma1250@gmail.com");
+			dr.findElement(By.id("eLoginNew")).sendKeys("praveenvarma125@gmail.com");
 			dr.findElement(By.id("pLogin")).sendKeys("Varma@1250");
 			//dr.findElement(By.tagName("button")).click();
 			dr.findElement(By.xpath("//div[@class='row']//button[@value='Login']")).click();
